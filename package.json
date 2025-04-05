@@ -1,0 +1,28 @@
+{
+  "name": "crud-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tamae002/CRUD-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tamae002/CRUD-App/issues"
+  },
+  "homepage": "https://github.com/Tamae002/CRUD-App#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "eslint": "^9.24.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.9"
+  }
+}
