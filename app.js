@@ -16,8 +16,8 @@ app.get('/', (req, res) => {
     res.send('Welcome to CRUD App using nodejs and express');
 })
 
-app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`)
+app.listen(5000, () => {
+    console.log(`Server running on http://localhost:5000`)
 })
 
 export default app
